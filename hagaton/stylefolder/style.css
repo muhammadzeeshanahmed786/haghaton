@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    font-family: sans-serif;
+    background-image: url(../images/istockphoto-1158191245-612x612.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-image: norepait();
+    
+
+}
+
+
+
+.signup-form-div{
+    border: 2px solid #f05800;
+width: 250px;
+box-shadow: 0 0 3px 0(0,0,0,0.3);
+background-image: url();
+padding-left:30px ;
+padding-right:30px ;
+
+margin: 8% auto;
+text-align: center;
+height: auto;
+margin-bottom: -150px;
+
+}
+
+.signup-form-div h1{
+    color: #f05800;
+    margin-bottom: -5px;
+}
+
+.usericon{
+   height: 90px;
+    width: 90px;
+    margin-top: -50px;
+    border-radius: 55px;
+}
+
+.input-box{
+    color: #f05800;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+width: 88%;
+border: 2px solid #f05800;
+outline: none;
+}
+.input-box:hover{
+   background-color: #f05800;
+   color: white;
+   cursor: pointer;
+}
+
+
+button{
+    color: #f05800;
+    width: 88%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #f05800;
+    cursor: pointer;
+}
+.sing-btn,.face-btn{
+    background-color: #1c8adb;
+}
+
+a{
+    text-decoration: none;
+    color: #f05800;
+}
+hr{
+ 
+    width: 76%;
+}
+.or{
+    width: 30px;
+    margin: -19px auto 10px;
+    background: #fff
+}
+
+
+
+
+#cart1{
+    color: black;
+   display: inline-block !important;
+   background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    width: 400px !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+#cart1,img{
+width: 100%;
+border: 2px solid rgb(241, 240, 240);
+
+
+}
+#cart1,p1{
+    width:150px;
+    margin-left: 90px;
+    color: rgb(255, 255, 255);
+   
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.container-fluid{
+    background-color: rgb(255, 225, 225) !important;
+}
+
+
+
+.resturnt{
+    margin-left: 150px !important;
+    margin-top: 130px !important;
+    width: auto;
+    height: 400px;
+    border:  2px solid #f05800;
+    background-color: rgb(240, 125, 84);
+    margin: 10px auto;
+    display: inline-block;
+}
+.restheading{
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.imgres{
+    margin-top:20px !important ;
+    text-align: center;
+    align-items: center;
+    width:250px;
+    height: 250px;
+    margin-top: -20px;
+    padding: 10px;
+    border-radius: 1000px;
+}
+
+
+.mainres{
+    color: rgb(240, 125, 84);
+    margin-left: 350px ;
+  }
+
+
+@media only screen and (max-width: 1025px) {
+    .mainres{
+margin-left: 300px;
+    }
+    
+    
+    
+   } 
+
+
+   @media only screen and (max-width: 900px) {
+    .mainres{
+margin-left:280px ;
+    }
+    
+        .resturnt{
+            margin-left: 70px !important;
+        }
+    
+    
+   }
+
+   @media only screen and (max-width: 785px) {
+    .mainres{
+        margin-left:250px ;
+    }
+    .resturnt{
+        margin-left: 50px !important;
+    }
+
+    @media only screen and (max-width: 675px) {
+        
+        .resturnt{
+            margin-left: 150px !important;
+            align-items: center;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 550px) {
+        
+        .resturnt{
+            margin-left: 100px !important;
+            align-items: center;
+        }
+    
+    
+    }
+    @media only screen and (max-width: 415px) {
+        
+        .resturnt{
+            margin-left: 50px !important;
+            align-items: center;
+        }
+    
+    
+    }
+
+    @media only screen and (max-width: 720px) {
+        .mainres{
+            margin-left:190px ;
+
+        }
+        
+        
+    } 
+
+
+   
+    @media only screen and (max-width: 650px) {
+        .mainres{
+            margin-left:160px ;
+
+        }
+        
+        
+    }  
+
+    @media only screen and (max-width: 560px) {
+        .mainres{
+margin-left: 130px;
+        }
+        
+        
+    } 
+
+    @media only screen and (max-width: 485px) {
+        .mainres{
+margin-left: 80px;
+        }
+        
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+     .mainres{
+margin-left: 40px;
+     }
+     
+
+    }
+
+ 
+       

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAGATHON</title>
+    <link rel="stylesheet" href="../stylefolder/style.css">
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    
+    <script>
+      
+      var firebaseConfig = {
+        apiKey: "AIzaSyCyt8I6JyKPOXO1rAZ5ksWE3i9xsNJCNkQ",
+        authDomain: "sing-up-app-auth.firebaseapp.com",
+        databaseURL: "https://sing-up-app-auth-default-rtdb.firebaseio.com",
+        projectId: "sing-up-app-auth",
+        storageBucket: "sing-up-app-auth.appspot.com",
+        messagingSenderId: "197833804492",
+        appId: "1:197833804492:web:6e2544ba39632b54365069",
+        measurementId: "G-JEREP6YL27"
+      };
+     
+      firebase.initializeApp(firebaseConfig);
+      
+    </script>
+</head>
+<body>
+    
+
+    
+<div class="signup-form-div">
+    <img class="usericon" src="../images/user1.jfif" alt="">
+    <h1>signup</h1>
+<input class="input-box" type="email"  id="email" placeholder="email"><br>
+<input class="input-box" type="password"  id="password" placeholder="password"><br>
+<input class="input-box" type="number"  id="number" placeholder="number"><br>
+<input class="input-box" type="text"  id="city" placeholder="city"><br>
+
+
+<button onclick="signup()"> signup</button>
+<hr>
+<button>Facebook</button>
+<hr>
+<p>As You Have An Account <a href="signin.html"> SINGIN</a></p>
+
+
+
+</div>
+
+
+
+
+    <script src="../javascriptfoler/app.js"></script>
+</body>
+</html>

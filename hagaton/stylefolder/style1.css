@@ -1,0 +1,317 @@
+
+
+.okok{
+  color: #fff;
+}
+  .navbar {
+    background-color:#d32F2F !important; 
+    color: papayawhip;
+  }
+  .nav-link{
+    color: white !important;
+  }
+ .shariq{
+   height: 50px;
+   width: 75px;
+ }
+ 
+
+
+ .fa-shopping-cart{
+font-size: 32px !important;
+ }
+ .fa-user-circle-o{
+   font-size: 32px !important;
+ }
+ .fa-truck,.fa-headphones,.fa-thumbs-up{
+   font-size:50px !important;
+   margin-right: 15px !important;
+   color: #d32F2F;
+ }
+ h3{
+color: #d32F2F;
+ }
+ .card1,.card2,.card3{
+ display: flex;
+ width: 300px;
+ height: 100px;
+ background-color: #fff;
+ box-shadow: 2px 4px 5px grey;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+.Main-card{
+  
+  margin-top:30px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap ; 
+}
+@media screen and(max-width: 746px){
+  .card1,.card2,.card3{
+ width: 100%;
+  }
+
+}
+
+.navbar-brand{
+  color: #ffffff !important;
+}
+
+
+
+
+.newArrival{
+  margin-top: 50px;
+}
+.heading{
+  text-align: center;
+font-weight: bold;
+color: #d32F2F;
+margin: 20px;
+}
+.heading >h1{
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.carskiimage{
+  width: 230px;
+  height:300px !important;
+}
+.cardkabutton{
+  text-decoration: none;
+  color: #d32F2F;
+  border: 2px solid transparent;
+  background-color: tomato;
+  margin: 10px auto;
+}
+#cart1{
+  width: 280px;
+
+  height: 500px !;
+  margin-bottom: 10px;
+  margin-left: 32px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  padding: 5px;
+  
+}
+#cart1,h3{
+  color: #b43434;
+}
+#cart1:hover{
+  border: 2px solid rgb(255, 255, 255);
+
+  transition: all 0.9s;
+}
+
+@media only screen and (max-width: 1024px) {
+  #cart1{
+width: 250px ;
+  }
+ }
+ 
+ @media only screen and (max-width: 990px) {
+  #cart1{
+     margin-left: 20px;
+     width: 30%;
+  }
+ }
+ @media only screen and (max-width: 768px) {
+  #cart1{
+    
+     width: 210px;
+     margin-left:30px ;
+  }
+ }
+ @media only screen and (max-width: 540px) {
+  #cart1{
+ margin: 10px auto;
+     width: 380px;
+    
+  }
+ }
+ 
+
+
+.btn-primary{
+  width: 90%;
+  background-color: #d32F2F;
+  border: 2px solid transparent;
+  
+}
+.btn-primary:hover{
+  background-color: rgb(235, 140, 140);
+  border: 2px solid #d32F2F;
+  transition: all 0.5s;
+  cursor: pointer;
+  color: #d32F2F;
+  width: 100%;
+}
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: #d32F2F;
+}
+.footer > div{
+  text-align: center;
+}
+h4{
+  color: #fff;
+}
+.btnn{
+
+
+text-align: center;
+align-items: center;
+}
+.lood{
+  color: #fff;
+  background-color: #d32F2F;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.lood:hover{
+  background-color:rgb(35, 120, 218);
+}
+.mybadge{
+  color:#ebe8e8;
+  background-color: rgb(241, 0, 0);
+  border: 2px solid rgb(34, 33, 33);
+  border-radius: 55px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  padding-left: 11px;
+  margin-bottom: -31px;
+  margin-top: -50px;
+  margin-left: 21px;
+  
+}
+
+.card4{
+  
+  width: 180px;
+  height: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 55px;
+  display: none;
+
+
+}
+.iimm{
+  text-align: center;
+  align-items: center;
+ margin-left: 459px;
+}
+@media only screen and (max-width: 900px) {
+  .iimm{
+    margin-left: 420px;
+  }
+ }
+@media only screen and (max-width: 900px) {
+ .iimm{
+   margin-left: 380px;
+ }
+}
+@media only screen and (max-width: 785px) {
+  .iimm{
+    margin-left: 340px;
+  }
+ }
+ @media only screen and (max-width: 720px) {
+  .iimm{
+    margin-left: 300px;
+  }
+ }
+ @media only screen and (max-width: 630px) {
+  .iimm{
+    margin-left: 260px;
+  }
+ }
+ @media only screen and (max-width: 560px) {
+  .iimm{
+    margin-left: 230px;
+  }
+ }
+ @media only screen and (max-width: 485px) {
+  .iimm{
+    margin-left: 200px;
+  }
+ }
+@media only screen and (max-width: 425px) {
+  .iimm{
+    margin-left: 180px;
+  }
+ }
+ @media only screen and (max-width: 375px) {
+  .iimm{
+    margin-left: 140px;
+  }
+  
+ }
+ @media only screen and (max-width: 300px) {
+  .iimm{
+    margin-left: 100px;
+  }
+  
+ }
+
+ #buttn{
+   color: #ebe8e8;
+   background-color:#d32F2F;
+   display: none;
+   margin: 10px auto;
+   border: 2px solid transparent;
+   border-radius: 5px;
+   width: 150px;
+   margin-bottom: 11px;
+  }
+  #buttn:hover{
+    background-color: rgb(235, 140, 140);
+    border: 2px solid #d32F2F;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #d32F2F;
+  }
+  
+    
+  .d-block{
+    height: 330px ;
+  }
+  @media only screen and (max-width: 700px) {
+    .d-block{
+      height: 200px;
+    }
+   }
+
+
+   /* order  card*/
+   
+.orderbotton{
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid transparent;
+  background-color: rgb(241, 36, 0);
+  margin: 10px auto;
+  border: 2px solid red;
+}
+.orderdiv{
+  width: 280px;
+
+  height: 500px !;
+  margin-bottom: 10px;
+  margin-left: 32px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  padding: 5px;
+}
+
+.orderimage{
+  width: 100%;
+  height:300px !important;
+}

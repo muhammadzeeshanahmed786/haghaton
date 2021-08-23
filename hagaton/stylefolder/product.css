@@ -1,0 +1,203 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+
+
+@media all and (max-width: 991px)  {
+    .sidebar .nav > li.active-pro{
+        position: initial;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+ background-color: #1b203d;
+  height: 100vh;
+}
+
+#post{
+  display: none;
+}
+#post1{
+  margin: 10px auto;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  /* color: #c5ecfd; */
+  color: white;
+  width: 90%;
+  
+}
+.opt{
+
+background-color: #ffffff;
+color: #f05800;
+
+
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: #272c4a;
+  padding: 30px;
+  border-radius: 5px;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.wrapper .title h1{
+  
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+/* .input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+} */
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+.btn {
+    background: #f05800;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.header{
+    color: cornsilk;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
+
+.form-control{
+  margin: 10px auto;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  /* color: #c5ecfd; */
+  color: white;
+  width: 90%;
+  
+}
+.form-control:hover{
+
+background-color: #1b203d;
+  
+}
+.form-control:active{
+  
+  background-color: #c5ecfd;
+ 
+}
+
+.title{
+  color: #e4ecf0;
+  font-size: 35px ;
+  
+
+}
+.inpp{
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 10px auto;
+  margin-left: 24px;
+  padding-left: 10px;
+  padding-bottom:10px ;
+  color: #f05800;
+  font-size: 20px;
+}
+
+
+.inpp:hover{
+  background-color: #1b203d;
+}
+
+#duestionisId{
+  background-color: tomato;
+
+}
